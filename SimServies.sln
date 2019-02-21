@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimServies.Common", "SimServies.Common\SimServies.Common.csproj", "{7EDD71CC-788F-4A1D-83F9-D1EE7EB8D60A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimServices.Common", "SimServices.Common\SimServices.Common.csproj", "{7EDD71CC-788F-4A1D-83F9-D1EE7EB8D60A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimServies.Model", "SimServies.Model\SimServies.Model.csproj", "{79CB61E7-5D5E-4D4B-9628-334D8111F0ED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimServices.Model", "SimServices.Model\SimServices.Model.csproj", "{79CB61E7-5D5E-4D4B-9628-334D8111F0ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimServies.Data", "SimServies.Data\SimServies.Data.csproj", "{EE3E07F6-922B-422A-9A2C-5C77AD63AE84}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimServices.Data", "SimServices.Data\SimServices.Data.csproj", "{EE3E07F6-922B-422A-9A2C-5C77AD63AE84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimServies.Service", "SimServies.Service\SimServies.Service.csproj", "{3957FA6F-46C7-439B-8B4A-E3C1C65DF620}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimServices.Service", "SimServices.Service\SimServices.Service.csproj", "{3957FA6F-46C7-439B-8B4A-E3C1C65DF620}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimServies.UnitTest", "SimServies.UnitTest\SimServies.UnitTest.csproj", "{E4512F0D-BE49-4D19-8132-069EAF61EB3F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimServices.UnitTest", "SimServices.UnitTest\SimServices.UnitTest.csproj", "{E4512F0D-BE49-4D19-8132-069EAF61EB3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimServies.Web", "SimServies.Web\SimServies.Web.csproj", "{5FB34A72-E566-49C6-9477-0BC8C9E4A184}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimServices.Web", "SimServices.Web\SimServices.Web.csproj", "{5FB34A72-E566-49C6-9477-0BC8C9E4A184}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
