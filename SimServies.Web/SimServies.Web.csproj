@@ -45,6 +45,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -207,7 +213,6 @@
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -222,6 +227,24 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SimServies.Common\SimServies.Common.csproj">
+      <Project>{7edd71cc-788f-4a1d-83f9-d1ee7eb8d60a}</Project>
+      <Name>SimServies.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SimServies.Data\SimServies.Data.csproj">
+      <Project>{ee3e07f6-922b-422a-9a2c-5c77ad63ae84}</Project>
+      <Name>SimServies.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SimServies.Model\SimServies.Model.csproj">
+      <Project>{79cb61e7-5d5e-4d4b-9628-334d8111f0ed}</Project>
+      <Name>SimServies.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SimServies.Service\SimServies.Service.csproj">
+      <Project>{3957fa6f-46c7-439b-8b4a-e3c1c65df620}</Project>
+      <Name>SimServies.Service</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

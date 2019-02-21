@@ -53,7 +53,30 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SimServies.Common\SimServies.Common.csproj">
+      <Project>{7edd71cc-788f-4a1d-83f9-d1ee7eb8d60a}</Project>
+      <Name>SimServies.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SimServies.Data\SimServies.Data.csproj">
+      <Project>{ee3e07f6-922b-422a-9a2c-5c77ad63ae84}</Project>
+      <Name>SimServies.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SimServies.Model\SimServies.Model.csproj">
+      <Project>{79cb61e7-5d5e-4d4b-9628-334d8111f0ed}</Project>
+      <Name>SimServies.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SimServies.Service\SimServies.Service.csproj">
+      <Project>{3957fa6f-46c7-439b-8b4a-e3c1c65df620}</Project>
+      <Name>SimServies.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SimServies.Web\SimServies.Web.csproj">
+      <Project>{5fb34a72-e566-49c6-9477-0bc8c9e4a184}</Project>
+      <Name>SimServies.Web</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
