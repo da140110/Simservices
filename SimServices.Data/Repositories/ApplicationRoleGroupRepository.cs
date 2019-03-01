@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using SimServices.Data.Infracstructure;
+using SimServices.Data.Infrastructure;
 using SimServices.Model.Models;
 
 namespace SimServices.Data.Repositories
 {
-    public interface IApplicationRoleGroupRepository
+    public interface IApplicationRoleGroupRepository : IRepository<ApplicationRoleGroup>
     {
         
     }

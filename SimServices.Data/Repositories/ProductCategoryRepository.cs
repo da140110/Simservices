@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SimServices.Data.Infracstructure;
+using SimServices.Data.Infrastructure;
 using System.Collections;
 using SimServices.Model.Models;
 using System.Linq;
 
 namespace SimServices.Data.Repositories
 {
-    public interface IProductCategoryRepository
+    public interface IProductCategoryRepository : IRepository<ProductCategory>
     {
         IEnumerable<ProductCategory> GetByAlias(string alias);
     }

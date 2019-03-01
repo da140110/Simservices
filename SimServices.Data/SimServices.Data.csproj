@@ -54,14 +54,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Infracstructure\DbFactory.cs" />
-    <Compile Include="Infracstructure\Disposable.cs" />
-    <Compile Include="Infracstructure\IDbFactory.cs" />
-    <Compile Include="Infracstructure\IRepository.cs" />
-    <Compile Include="Infracstructure\IUnitOfWork.cs" />
-    <Compile Include="Infracstructure\IUnitOfWorks.cs" />
-    <Compile Include="Infracstructure\RepositoryBase.cs" />
-    <Compile Include="Infracstructure\UnitOfWork.cs" />
+    <Compile Include="Infrastructure\DbFactory.cs" />
+    <Compile Include="Infrastructure\Disposable.cs" />
+    <Compile Include="Infrastructure\IDbFactory.cs" />
+    <Compile Include="Infrastructure\IRepository.cs" />
+    <Compile Include="Infrastructure\IUnitOfWork.cs" />
+    <Compile Include="Infrastructure\IUnitOfWorks.cs" />
+    <Compile Include="Infrastructure\RepositoryBase.cs" />
+    <Compile Include="Infrastructure\UnitOfWork.cs" />
     <Compile Include="Migrations\201902210821004_initialDB.cs" />
     <Compile Include="Migrations\201902210821004_initialDB.Designer.cs">
       <DependentUpon>201902210821004_initialDB.cs</DependentUpon>

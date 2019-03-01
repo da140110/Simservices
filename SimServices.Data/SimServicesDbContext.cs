@@ -12,6 +12,10 @@ namespace SimServices.Data
     //enable-migrations
     //add-migration initialDB
     //update-database
+    //----
+    //Them bang moi
+    //ad-migration AddNewTable
+    //update-database
     public class SimServicesDbContext : IdentityDbContext<ApplicationUser>
     {
         public SimServicesDbContext() : base("SimServicesConnection")

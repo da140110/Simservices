@@ -1,9 +1,9 @@
-﻿using SimServices.Data.Infracstructure;
+﻿using SimServices.Data.Infrastructure;
 using SimServices.Model.Models;
 
 namespace SimServices.Data.Repositories
 {
-    public interface IFeedbackRepository
+    public interface IFeedbackRepository : IRepository<Feedback>
     {
     }
 
