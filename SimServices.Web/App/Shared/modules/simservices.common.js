@@ -1,3 +1,3 @@
-﻿(function () {
-    angular.module('simservices.common',['ui.router'])
+﻿ (function () {
+    angular.module('simservices.common',['ui.router','ngBootbox'])
 })();
